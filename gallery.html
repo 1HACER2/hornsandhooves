@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши сотрудники</title>
+    <style>
+        /* Стили для ссылок */
+        a {
+            color: black; /* Цвет текста черный */
+            text-decoration: none; /* Убираем подчеркивание */
+        }
+        a:visited {
+            color: black; /* Цвет текста черный для посещенных ссылок */
+        }
+        a:hover {
+            text-decoration: underline; /* Подчеркивание при наведении */
+        }
+        /* Стили для таблицы */
+        table {
+            font-weight: normal; /* Устанавливаем нормальный вес шрифта для таблицы */
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Компания «Рога и копыта»</h1>
+        <h2>Мы работаем для Вас</h2>
+        <hr> 
+        <p>
+            <a href="index.html">| <strong>Главная</strong></a> |
+            <a href="about.html"><strong>О компании</strong></a> |
+            <a href="employee.html"><strong>Наши сотрудники</strong></a> |
+            <a href="education.html"><strong>Обучение</strong></a> |
+            <a href="gallery.html"><strong>Галерея</strong></a> |
+        </p>
+        <hr>
+    </center>
+
+    <style>
+        body {
+            text-align: center; /* Центрирование текста на странице */
+        }
+
+        .gallery {
+            position: relative;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .gallery img {
+            width: 150px; /* Размер превью */
+            height: auto;
+            transition: 0.3s; /* Плавный переход */
+        }
+
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
+            color: white;
+            text-align: center;
+            opacity: 0; /* Скрыто по умолчанию */
+            transition: opacity 0.3s; /* Плавный переход */
+        }
+
+        .gallery:hover .caption {
+            opacity: 1; /* Показать при наведении */
+        }
+    </style>
+
+<h2>Галерея рогов</h2>
+
+<p align="center">
+    <iframe src="C:\Users\opari\Desktop\УЧЕБНАЯ_ПРАКТИКА_УП_ПМ_05\СДЕЛАННЫЕ ЗАДАНИЯ\Задание_2\img\fullimg\1.jpg" name="color" width="500" height="500" style="overflow: hidden; border: none;"></iframe>
+</p>
+<p align="center">
+    <div class="gallery">
+        <a href="C:\Users\opari\Desktop\УЧЕБНАЯ_ПРАКТИКА_УП_ПМ_05\СДЕЛАННЫЕ ЗАДАНИЯ\Задание_2\img\fullimg\1.jpg" target="color">
+            <img src="C:\Users\opari\Desktop\УЧЕБНАЯ_ПРАКТИКА_УП_ПМ_05\СДЕЛАННЫЕ ЗАДАНИЯ\Задание_2\img\preview\15.jpg">
+            <div class="caption">Рога</div>
+        </a>
+    </div>
+
+    <div class="gallery">
+        <a href="C:\Users\opari\Desktop\УЧЕБНАЯ_ПРАКТИКА_УП_ПМ_05\СДЕЛАННЫЕ ЗАДАНИЯ\Задание_2\img\fullimg\2.jpg" target="color">
+            <img src="C:\Users\opari\Desktop\УЧЕБНАЯ_ПРАКТИКА_УП_ПМ_05\СДЕЛАННЫЕ ЗАДАНИЯ\Задание_2\img\preview\25.jpg">
+            <div class="caption">Целые рога</div>
+        </a>
+    </div>
+
+    <div class="gallery">
+        <a href="C:\Users\opari\Desktop\УЧЕБНАЯ_ПРАКТИКА_УП_ПМ_05\СДЕЛАННЫЕ ЗАДАНИЯ\Задание_2\img\fullimg\3.jpg" target="color">
+            <img src="C:\Users\opari\Desktop\УЧЕБНАЯ_ПРАКТИКА_УП_ПМ_05\СДЕЛАННЫЕ ЗАДАНИЯ\Задание_2\img\preview\35.jpg">
+            <div class="caption">Копыто</div>
+        </a>
+    </div>
+
+    <div class="gallery">
+        <a href="C:\Users\opari\Desktop\УЧЕБНАЯ_ПРАКТИКА_УП_ПМ_05\СДЕЛАННЫЕ ЗАДАНИЯ\Задание_2\img\fullimg\4.jpg" target="color">
+            <img src="C:\Users\opari\Desktop\УЧЕБНАЯ_ПРАКТИКА_УП_ПМ_05\СДЕЛАННЫЕ ЗАДАНИЯ\Задание_2\img\preview\45.jpg">
+            <div class="caption">Рога стенд</div>
+        </a>
+    </div>
+
+    <div class="gallery">
+        <a href="C:\Users\opari\Desktop\УЧЕБНАЯ_ПРАКТИКА_УП_ПМ_05\СДЕЛАННЫЕ ЗАДАНИЯ\Задание_2\img\fullimg\5.jpg" target="color">
+            <img src="C:\Users\opari\Desktop\УЧЕБНАЯ_ПРАКТИКА_УП_ПМ_05\СДЕЛАННЫЕ ЗАДАНИЯ\Задание_2\img\preview\55.jpg">
+            <div class="caption">Копыта</div>
+        </a>
+    </div>
+</p>
+
+<table width="100%" border="0" cellpadding="5" cellspacing="0">
+    <tr>
+        <td align="left">
+            <p>© Бендер и компания</p>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
